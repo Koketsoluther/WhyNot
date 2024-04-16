@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import './index.css' ;
+import LoginForm from './components/LoginForm/LoginForm';
 
 function App() {
   const [data, setData] = useState('');
@@ -9,8 +11,12 @@ function App() {
       setData(text);
     })();
   });
-
-  return <div>{data}</div>;
+  return (
+    <div>
+      <LoginForm/>
+    </div>
+  );
 }
 
 export default App;
+
