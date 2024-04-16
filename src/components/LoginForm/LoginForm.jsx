@@ -23,12 +23,12 @@ function LoginForm() {
             
             <section className='remember-forgot'>
                 <label><input type="checkbox" />Remember me</label>
-                <a href="#">Forgot password?</a>
+                <p>Forgot password?</p>
             </section>
             
             <button type='submit'>Login</button>
             <article className='register-link' >
-                <p>Don't have an account? <a href="#">Register</a></p>
+                <p>Don't have an account?</p>
             </article >
             
         </form>
